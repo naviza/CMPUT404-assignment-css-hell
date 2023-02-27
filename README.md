@@ -1,4 +1,4 @@
-Assignment: CSS Hell
+Assignment: CSS Hell, Richmond Naviza
 ====================
 
 You will skin 3 project gutenberg stories with custom CSS.
@@ -21,4 +21,11 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+
+Things I changed for part 1:
+- made the background yellow-ish
+- first letter of every paragraph now has a special font applied to it
+- changed the font-family to various fonts
+- the header and the footers are now more hidden than the rest of the content
+- image has a background
 

@@ -1,0 +1,110 @@
+#selfie {
+    width: 20%;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction */
+
+.sidebar {
+    height: 70%;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 2%;
+    background-color: lightblue;
+    }
+
+#header-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+#header-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #header-section img{
+    align-self: flex-end
+} */
+
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(182, 255, 179);
+    flex-direction: row;
+    color: white;
+}
+.navbar-box {
+    border: 1px solid;
+    width: 25%;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.content {
+    width: 20%;
+    border: 1px solid #c3c3c3;
+    display: flex;
+  }
+
+.text-right{
+    text-align: center;
+}
+
+.main-section{
+    padding-left: 25%;
+    padding-right: 7%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(254, 255, 210);
+}
+
+#professional-history h2{
+    text-align: center;
+}
+#professional-history table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+#professional-history td{
+    border: 1px solid;
+    padding: 7%;
+    width: 50%;
+}
+
+#footing{
+    text-align: center;
+}
+
+.body-section h1{
+    font-size: 5em;
+}
+
+.body-section h2{
+    font-size: 2em;
+}
+
+.body-section p{
+    text-align: left;
+    font-size: 1em;
+}
+
+.job-description{
+    background-image: url("./agapita.jpg");
+
+  opacity:0.7;
+}

@@ -1,0 +1,105 @@
+#selfie {
+    width: 500px;
+    height: 300px;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction */
+.text-right{
+    text-align: right;
+    color: red;
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: blue;
+    }
+
+#header-section{
+    /* display:flex;
+    flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* padding: 2%; */
+}
+#header-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #header-section img{
+    align-self: flex-end
+} */
+
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    background-color: aqua;
+    flex-direction: row;
+}
+.navbar-box {
+    border: 1px solid;
+    width: 25%;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.content {
+    width: 20%;
+    border: 1px solid #c3c3c3;
+    display: flex;
+  }
+
+
+
+.main-section{
+    padding-left: 25%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#professional-history h2{
+    text-align: right;
+}
+#professional-history table{
+    table-layout: fixed;
+    
+    text-align: right;
+    width: 50%;
+}
+
+#professional-history td{
+    border: 5px solid;
+    padding: 3%;
+    width: 10%;
+    
+    background-color: yellow;
+}
+
+.body-section{
+    border: 10px solid;
+    padding: 10px;
+    background-color: blanchedalmond;
+    opacity: 0.9;
+}
+
+#job-description{
+    border-color: red;
+    font-family: cursive;
+}
